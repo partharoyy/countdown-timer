@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 1200px){
   .main-wrap h1 {
     text-align: center;
     margin-bottom: 30px;
@@ -43,7 +42,7 @@
   .timer > a {
     margin-left: 70px;
   }
-}
+
 
 @media only screen and (max-width: 860px){
   .main-wrap h1 {
