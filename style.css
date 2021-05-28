@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Pacifico', cursive;
+  box-sizing: border-box;
 }
 
 @media only screen and (max-width: 1200px){
@@ -49,9 +50,9 @@
     text-align: center;
     margin-bottom: 30px;
     color: grey;
-    margin-left: 52px;
+    margin-left: 30px;
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 35px;
   }
   .main-wrap {
     margin: 0 auto;
@@ -61,29 +62,242 @@
   }
   
   .img {
-    height: 350px;
-    width: 650px;
+    height: 300px;
+    width: 600px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
   }
   
   .timer {
     position: relative;
-    bottom: 320px;
+    bottom: 290px;
     left: 18px;
     color: rgb(109, 105, 105);
-    font-size: 20px;
+    font-size: 18px;
     
   }
   
   .timer > a {
-    margin-left: 70px;
+    margin-left: 60px;
   }
 }
 
-@media only screen and (max-width: 600px){
-
+@media only screen and (max-width: 797px){
+  .main-wrap h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: grey;
+    font-weight: lighter;
+    font-size: 28px;
+  }
+  .main-wrap {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 650px;
+    margin-top: 1rem;
+  }
+  
+  .img {
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timer {
+    position: relative;
+    bottom: 280px;
+    left: 18px;
+    color: rgb(109, 105, 105);
+    font-size: 16px;
+    
+  }
+  
+  .timer > a {
+    margin-left: 60px;
+  }
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 700px){
+  .main-wrap h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: grey;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+  .main-wrap {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+  
+  .img {
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timer {
+    position: relative;
+    bottom: 370px;
+    left: 6px;
+    color: rgb(109, 105, 105);
+    font-size: 18px;
+    
+  }
+  
+  .timer > a {
+    margin-left: 50px;
+  }
+}
 
+@media only screen and (max-width: 615px){
+  .main-wrap h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: grey;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 25px;
+  }
+  .main-wrap {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+  
+  .img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timer {
+    position: relative;
+    bottom: 380px;
+    left: 2px;
+    color: rgb(109, 105, 105);
+    font-size: 18px;
+    
+  }
+  
+  .timer > a {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 465px){
+  .main-wrap h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: grey;
+    margin-left: 10px;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+  .main-wrap {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+  
+  .img {
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timer {
+    position: relative;
+    bottom: 370px;
+    left: 6px;
+    color: rgb(109, 105, 105);
+    font-size: 18px;
+    
+  }
+  
+  .timer > a {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 415){
+  .main-wrap h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: grey;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  .main-wrap {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+  
+  .img {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timer {
+    position: relative;
+    bottom: 370px;
+    left: 6px;
+    color: rgb(109, 105, 105);
+    font-size: 12px;
+    
+  }
+  
+  .timer > a {
+    word-wrap: break-word;
+  }
+}
+
+@media only screen and (max-width: 270){
+  .main-wrap h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: grey;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  .main-wrap {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 250px;
+    margin-top: 1rem;
+  }
+  
+  .img {
+    height: 100px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timer {
+    position: relative;
+    bottom: 350px;
+    left: 10px;
+    color: rgb(109, 105, 105);
+    font-size: 12px;
+    
+  }
+  
+  .timer > a {
+    word-wrap: break-word;
+  }
 }
